@@ -1,9 +1,13 @@
-const Blogs = () => {
-    return ( 
+import { BlogCard } from "./index";
+
+const Blogs = ({ blogs }) => {
+    return (
         <div>
-            <h3>Hello Blogs</h3>
+            {blogs.map((blog) => {
+                return <BlogCard key={blog.title} blog={blog} />
+            })}
         </div>
-     );
+    );
 }
- 
+
 export default Blogs;
