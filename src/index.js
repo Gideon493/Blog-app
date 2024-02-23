@@ -1,9 +1,17 @@
-import Blog from "./Blog";
-import Blogs from "./Blogs";
-import BlogCard from "./BlogCard";
+import Blog from "./components/Blog";
+import Blogs from "./components/Blogs";
+import BlogCard from "./components/BlogCard";
+import Navbar from "./Navbar";
+import Home from "./components/Home";
+import Login from "./components/Login";
+import Signup from "./components/SIgnup";
 
-export  {
+export {
     Blog,
     Blogs,
-    BlogCard
+    BlogCard,
+    Navbar,
+    Home,
+    Login,
+    Signup
 }

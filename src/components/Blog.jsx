@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Blog = ({ addBlog }) => {
     const [title, setTitle] = useState("");
@@ -20,12 +21,14 @@ const Blog = ({ addBlog }) => {
             addBlog({ title, body })
             setTitle("");
             setBody("");
+
+            
         }
     }
     return (
-        <div>
-       
-            <form action="" className="flex flex-col bg-slate-300 p-4 w-4/6">
+        <div className="absolute w-5/6 mt-16 mr-4">
+
+            <form action="" className="flex flex-col bg-slate-300 p-4 w-4/6 rounded-lg">
 
                 <label htmlFor="" className="my-2 font-medium">Blog Title</label>
                 <input type="text" placeholder="Write the blog title"

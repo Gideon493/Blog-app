@@ -1,4 +1,4 @@
-import { BlogCard } from "./index";
+import { BlogCard } from "../index";
 
 const Blogs = ({ blogs }) => {
     return (
