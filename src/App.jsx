@@ -33,7 +33,7 @@ const App = () => {
 
   return (
 
-    <div className='p-4'>
+    <div className="p-4 h-svh bg-gradient-to-l from-indigo-500 via-purple-500 to-pink-500 transition ease-in-out">
       <BrowserRouter>
         <Navbar
           showBlog={showBlog}

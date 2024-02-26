@@ -21,7 +21,6 @@ const Blog = ({ addBlog }) => {
             addBlog({ title, body })
             setTitle("");
             setBody("");
-
             
         }
     }

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Login, Signup, Blog } from "./index"
+import { Login, Signup, Blog } from "../index"
 import { FiLogIn } from "react-icons/fi";
 import { IoPersonAddOutline } from "react-icons/io5";
 import { TfiWrite } from "react-icons/tfi";
